@@ -29,6 +29,7 @@
   --color-gradient-1: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 19.36%, rgba(59, 107, 165, 0.55) 71.26%, #3b6ba5 100%);
   --color-gradient-2: linear-gradient(180deg, rgba(0, 0, 0, 0.31) 0%, rgba(0, 0, 0, 0.78) 100%);
   --box-shadow: 0px 9px 21px rgba(0, 0, 0, 0.04);
+  --hcolor:#d4d4d0;
 }
 
 
@@ -187,7 +188,7 @@ body {
   font-weight: normal;
   line-height: 28px;
   color: var(--text);
-  background-color: var(--white);
+  background-color: var(--hcolor);
   padding: 0;
   margin: 0;
   overflow-x: hidden;
